@@ -1,5 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const Detail = () => {
     const router = useRouter()
@@ -12,7 +13,7 @@ const Detail = () => {
                 <div className='container mx-auto w-full bg-white rounded-xl py-2 px-4 shadow-md'>
                     <div className="text-sm breadcrumbs">
                         <ul>
-                            <li><a href='/'>Home</a></li>
+                            <li><Link href='/'>Home</Link></li>
                             <li>Destination</li>
                             <li>Kayutangan</li>
                         </ul>
@@ -112,7 +113,7 @@ const Detail = () => {
                 <div className='container mx-auto w-full bg-white rounded-xl py-2 px-4 shadow-md'>
                     <div className="text-sm breadcrumbs">
                         <ul>
-                            <li><a href='/'>Home</a></li>
+                            <li><Link href='/'>Home</Link></li>
                             <li>Destination</li>
                             <li>Pantai Balekambang</li>
                         </ul>
@@ -211,7 +212,7 @@ const Detail = () => {
                 <div className='container mx-auto w-full bg-white rounded-xl py-2 px-4 shadow-md'>
                     <div className="text-sm breadcrumbs">
                         <ul>
-                            <li><a href='/'>Home</a></li>
+                            <li><Link href='/'>Home</Link></li>
                             <li>Destination</li>
                             <li>Kampung Warna Warni</li>
                         </ul>
@@ -313,7 +314,7 @@ const Detail = () => {
                 <div className='container mx-auto w-full bg-white rounded-xl py-2 px-4 shadow-md'>
                     <div className="text-sm breadcrumbs">
                         <ul>
-                            <li><a href='/'>Home</a></li>
+                            <li><Link href='/'>Home</Link></li>
                             <li>Destination</li>
                             <li>Museum Angkut</li>
                         </ul>

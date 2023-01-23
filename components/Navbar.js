@@ -1,5 +1,6 @@
 import React from 'react'
 import { LanguageIcon } from "@heroicons/react/24/solid"
+import Link from 'next/link'
 
 function Navbar() {
     return (
@@ -10,7 +11,7 @@ function Navbar() {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href='/'>Home</a></li>
+                        <li><Link href='/'>Home</Link></li>
                         <li><a>Destination</a></li>
                         <li><a>Blog</a></li>
                     </ul>
@@ -21,9 +22,13 @@ function Navbar() {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="flex px-1">
-                    <li><a href='/' className='font-semibold mx-2 hover:bg-slate-200 px-4 py-2 cursor-pointer rounded-lg transition duration-300'>Home</a></li>
-                    <li><a className='font-semibold mx-2 hover:bg-slate-200 px-4 py-2 cursor-pointer rounded-lg transition duration-300'>Destination</a></li>
-                    <li><a className='font-semibold mx-2 hover:bg-slate-200 px-4 py-2 cursor-pointer rounded-lg transition duration-300'>Blog</a></li>
+                    <li>
+                        <Link href='/'>
+                            <div className='font-semibold mx-2 hover:bg-slate-200 px-4 py-2 cursor-pointer rounded-lg transition duration-300'>Home</div>
+                        </Link>
+                    </li>
+                    <li><div className='font-semibold mx-2 hover:bg-slate-200 px-4 py-2 cursor-pointer rounded-lg transition duration-300'>Destination</div></li>
+                    <li><div className='font-semibold mx-2 hover:bg-slate-200 px-4 py-2 cursor-pointer rounded-lg transition duration-300'>Blog</div></li>
                 </ul>
             </div>
             <div className="navbar-end">
