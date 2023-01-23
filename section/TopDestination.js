@@ -4,7 +4,7 @@ import Link from 'next/link'
 function TopDestination() {
     return (
         <div className="mt-12 bg-slate-900 py-4 lg:py-12">
-            <div className="mt-8 container mx-auto">
+            <div className="mt-8 container mx-auto px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 w-full">
                     <div className="p-2 flex justify-center">
                         <img src="/img/museum-angkut.jpg" className="rounded-xl w-full" />
