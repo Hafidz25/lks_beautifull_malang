@@ -4,25 +4,22 @@
       "id": 1,
       "title": "Kayutangan",
       "slug": "kayutangan",
-      "headline": "Kampung Kayutangan is an area with heritage buildings with Dutch colonial architecture, ranging from residential houses, restaurants, schools, shops, and offices.",
-      "img": "/img/Kayutangan-Malang.jpg",
-      "link": "/detail1"
+      "headline": "Kampung Kayutangan merupakan kawasan dengan bangunan peninggalan berarsitektur kolonial Belanda, mulai dari rumah tinggal, rumah makan, sekolah, pertokoan, dan perkantoran.",
+      "img": "/img/Kayutangan-Malang.jpg"
     },
     {
       "id": 2,
       "title": "Pantai Balekambang",
       "slug": "pantai-balekambang",
-      "headline": "Balekambang Beach is a beach on the south coast which is located on the edge of the Indonesian Ocean",
-      "img": "/img/PANTAI-BALEKAMBANG-1248x703.jpg",
-      "link": "/detail2"
+      "headline": "Pantai Balekambang merupakan sebuah pantai di pesisir selatan yang terletak di tepi Samudera Indonesia.",
+      "img": "/img/PANTAI-BALEKAMBANG-1248x703.jpg"
     },
     {
       "id": 3,
       "title": "Kampung Warna Warni",
       "slug": "kampung-warna-warni",
-      "headline": "The first tourist village in Malang City in the form of a row of houses with colorful paint that adorns each wall of the house.",
-      "img": "/img/akses-menuju-kampung-warna-warni-jodipan-malang.jpg",
-      "link": "/detail3"
+      "headline": "Kampung wisata pertama di Kota Malang ini berupa deretan rumah dengan cat warna-warni yang menghiasi setiap dinding rumah.",
+      "img": "/img/akses-menuju-kampung-warna-warni-jodipan-malang.jpg"
     }
   ]
 }
