@@ -12,13 +12,13 @@ function Navbar() {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link href='/'>Home</Link></li>
-                        <li><a>Destination</a></li>
-                        <li><a>Blog</a></li>
+                        <li><Link href=''>Destination</Link></li>
+                        <li><Link href=''>Blog</Link></li>
                     </ul>
                 </div>
-                <a className="">
+                <Link href='/'>
                     <img src='/img/logo.png' className='w-24 h-auto' />
-                </a>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="flex px-1">
@@ -32,10 +32,10 @@ function Navbar() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn mr-4">Login</a>
-                <a className="p-2 rounded-xl hover:bg-slate-100 transition duration-200 cursor-pointer ">
+                <div className="btn mr-4">Login</div>
+                <div className="p-2 rounded-xl hover:bg-slate-100 transition duration-200 cursor-pointer ">
                     <LanguageIcon className='w-6 h-6' />
-                </a>
+                </div>
             </div>
         </div>
     )
