@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 
 function Card({ props }) {
-    console.log(props)
     return (
         <div className="card w-full bg-white shadow-xl rounded-2xl">
             <figure className='h-48'><img src={props.img} className='hover:scale-150 transition duration-300' /></figure>
