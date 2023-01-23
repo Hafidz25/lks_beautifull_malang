@@ -1,5 +1,6 @@
 import CTA from "@/section/CTA";
 import Hero from "@/section/Hero";
+import Head from "next/head";
 import Testimonial from "@/section/Testimonial";
 import TopDestination from "@/section/TopDestination";
 import TrendingTour from "@/section/TrendingTour";
@@ -19,6 +20,10 @@ export default function Home(props) {
   const trend = props.trend;
   return (
     <div className="">
+      <Head>
+        <title>Beautiful Malang - Home</title>
+        <link rel="icon" href="/img/logo-beautifulmalang.jpg" />
+      </Head>
       <Hero />
       <TrendingTour props={trend} />
       <TopDestination />

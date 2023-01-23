@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Detail = () => {
     const router = useRouter()
@@ -9,6 +10,10 @@ const Detail = () => {
     if (slug == "kayutangan") {
         return (
             <div className='mt-8'>
+                <Head>
+                    <title>Beautiful Malang - Kayutangan</title>
+                    <link rel="icon" href="/img/logo-beautifulmalang.jpg" />
+                </Head>
                 {/* Breadcrumb */}
                 <div className='container mx-auto w-full bg-white rounded-xl py-2 px-4 shadow-md'>
                     <div className="text-sm breadcrumbs">
@@ -109,6 +114,10 @@ const Detail = () => {
     } else if (slug == "pantai-balekambang") {
         return (
             <div className='mt-8'>
+                <Head>
+                    <title>Beautiful Malang - Pantai Balekambang</title>
+                    <link rel="icon" href="/img/logo-beautifulmalang.jpg" />
+                </Head>
                 {/* Breadcrumb */}
                 <div className='container mx-auto w-full bg-white rounded-xl py-2 px-4 shadow-md'>
                     <div className="text-sm breadcrumbs">
@@ -208,6 +217,10 @@ const Detail = () => {
     } else if (slug == "kampung-warna-warni") {
         return (
             <div className='mt-8'>
+                <Head>
+                    <title>Beautiful Malang - Kampung Warna Warni</title>
+                    <link rel="icon" href="/img/logo-beautifulmalang.jpg" />
+                </Head>
                 {/* Breadcrumb */}
                 <div className='container mx-auto w-full bg-white rounded-xl py-2 px-4 shadow-md'>
                     <div className="text-sm breadcrumbs">
@@ -310,6 +323,10 @@ const Detail = () => {
     } else if (slug == "museum-angkut") {
         return (
             <div className='mt-8'>
+                <Head>
+                    <title>Beautiful Malang - Museum Angkut</title>
+                    <link rel="icon" href="/img/logo-beautifulmalang.jpg" />
+                </Head>
                 {/* Breadcrumb */}
                 <div className='container mx-auto w-full bg-white rounded-xl py-2 px-4 shadow-md'>
                     <div className="text-sm breadcrumbs">
@@ -324,7 +341,7 @@ const Detail = () => {
                 <div className='mt-8 container mx-auto w-full py-2 px-4'>
                     <div className='grid grid-cols-1 gap-2 lg:gap-4 lg:grid-cols-2'>
                         <div>
-                            <img src='/img/Museum-angkut-Malang.jpg' className='rounded-xl w-full h-full shadow-sm' />
+                            <img src='/img/museum-angkut.jpg' className='rounded-xl w-full h-full shadow-sm' />
                         </div>
                         <div className='grid grid-cols-2 gap-2 lg:gap-4'>
                             <img src='/img/museum-angkut-1.jpg' className='rounded-xl w-full h-full shadow-md' />

@@ -7,7 +7,7 @@ function TopDestination() {
             <div className="mt-8 container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 w-full">
                     <div className="p-2 flex justify-center">
-                        <img src="/img/Museum-angkut-malang.jpg" className="rounded-xl w-full" />
+                        <img src="/img/museum-angkut.jpg" className="rounded-xl w-full" />
                     </div>
                     <div className="lg:ml-8 p-4">
                         <h1 className="font-semibold text-xl text-white mt-4">Top Destination</h1>
